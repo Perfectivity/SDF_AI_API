@@ -1,4 +1,5 @@
-# SDF_AI_API
+# 🐼 SDF_AI_API
+## 金柱盛
 Artificial intelligence API used in duty-free shop product recommendation functions.
 (人工智能商品推荐)
 
