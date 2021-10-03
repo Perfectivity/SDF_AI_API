@@ -59,6 +59,7 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 ### 推荐产品（来源于小程序）
 
 🟨 Request URL: https://www.ai-model.kr/ai-deep-mind/predict_proba.ai
+
 🟨 调用数据 ： 6个推荐产品 （每个分类中选1个）
 
 request (**POST**)
