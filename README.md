@@ -1,5 +1,5 @@
 # 🐼 SDF_AI_API
-## 金柱盛
+
 Artificial intelligence API used in duty-free shop product recommendation functions.
 (人工智能商品推荐)
 
@@ -102,51 +102,51 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 
 **请注意**‼️ ： 审查委员会通过比较跟 1.推荐产品（来源于小程序） 与 2.推荐产品（正确答案）的过程，计算两个数据的类似度。
 
-##  1. 推荐产品（来源于小程序）
+##  3. 非推荐产品（来源于小程序）
 
-🟨 Request URL: https://www.ai-model.kr/ai-deep-mind/predict_proba.ai
+🟦 Request URL: https://www.ai-model.kr/ai-deep-mind/predict_proba_unlike.ai
 
-🟨 调用数据 ： 6个推荐产品 （每个分类中选1个）
+🟦 调用数据 ： 4个推荐产品
 
 返回数据例子 (**POST**)
 ```json
-{
-"openid": "aawre2456aa434MMsaaaaaa", 
-"callback": "2021-09-00 10:58:16", 
+{ 
+"openid": "aaaaaaaaaaaaaa", 
+"callback": "2021-09-00 14:52:20", 
 "token_rcv": "OK",
-"ai_type": "preference",
-"health": "9351915000116", 
-"cosmetic":"9351915000127",
-"fashion": "9351915000135",
-"babykid": "9351915000145",
-"food": "9351915000154",
-"home": "9351915000162"
+"ai_type": "unlike",
+"health": "",
+"cosmetic":"9351915000131", 
+"fashion": "9351915000142", 
+"babykid": "9351915000150", 
+"food": "",
+"home": "9351915000168" 
 }
 ```
 
 
-##  1. 推荐产品（来源于小程序）
+##  4. 非推荐产品（正确答案）
 
-🟨 Request URL: https://www.ai-model.kr/ai-deep-mind/predict_proba.ai
+🟪 Request URL: https://www.ai-model.kr/ai-deep-mind/predict_standard_unlike.ai
 
-🟨 调用数据 ： 6个推荐产品 （每个分类中选1个）
+🟪 调用数据 ： 6个推荐产品 （每个分类中选1个）
 
 返回数据例子 (**POST**)
 ```json
 {
-"openid": "aawre2456aa434MMsaaaaaa", 
-"callback": "2021-09-00 10:58:16", 
+"openid": "aaaaaaaaaaaaaa", 
+"callback": "2021-09-00 14:54:15", 
 "token_rcv": "OK",
-"ai_type": "preference",
-"health": "9351915000116", 
-"cosmetic":"9351915000127",
-"fashion": "9351915000135",
-"babykid": "9351915000145",
-"food": "9351915000154",
-"home": "9351915000162"
+"ai_type": "unlike_standard", 
+"health": "9351915000119", 
+"cosmetic":"9351915000131", 
+"fashion": "9351915000142", 
+"babykid": "9351915000150", 
+"food": "9351915000159", 
+"home": "9351915000168"
 }
 ```
 
-
+🔆万一发生疑问，wechat : sjthsy
 
 
