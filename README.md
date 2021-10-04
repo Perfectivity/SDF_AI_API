@@ -147,6 +147,7 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 }
 ```
 
-🔆万一发生疑问，wechat : sjthsy
+
+🔆操作中发生疑问时，微信 : sjthsy
 
 
