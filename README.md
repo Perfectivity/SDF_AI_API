@@ -7,31 +7,31 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 ---
 |**parameter**|**definition**|**example**|
 |--|--|--|
-|token❗️||公司名称inteligenceaiiirom@endpoint64bit
+|token❗️||tk101inteligenceaiiirom@endpoint64bit
 |openid|微信OpenID|odsabK4hNsnWSSFDV7WTksAleo6c89
 |gender|男1,女2|一或二
 |age|年龄|公司名称inteligenceaiiirom@endpoint64bit
-|price_range|선호 가격대|一到五
-|visit|방문횟수|
-|favor|선호도|
-|sensitivity❗️|인공지능 추천 민감도|low: 민감도 낮음, 영역 넓음 medium: 일반적 추천 영역 high: 추천영역이 좁아 정확도 커브 낮아짐
-|deep_experience❗️|경험치|On:활성화 Off:비활성화(기본)
+|price_range|商品价格范围| 1：0~175元 ，2：175~290元 ， 3:290~583元 ，4:583~1167元，5:1167元以上
+|visit|访问次数|
+|favor|暂不使用的参数|
+|sensitivity❗️|推荐敏感度|low: 低, medium: 默认 high: 高
+|deep_experience❗️|经验值|On:活性 Off: 非活性(默认)
 
 ---
-## JSON 구조체
+## 返回的 JSON 数据 
 ---
-|**KEY**|**FEATURES**||
+|**KEY**|**FEATURES**|**备注**|
 |--|--|--|
-|openID|Request된OpenID 반환|
-|callback|추천된 전송시간 반환|데이터 유효성 시간에 이용
-|token_rc|남1,여2|一或二
-|ai_type|JSON数据的identify|
-|health|선호 가격대|一到五
-|cosmetic|방문횟수|
-|fashion|선호도|
-|babykid|인공지능 추천 민감도|low: 민감도 낮음, 영역 넓음 medium: 일반적 추천 영역 high: 추천영역이 좁아 정확도 커브 낮아짐
-|food|경험치|On:활성화 Off:비활성화(기본)
-|home|경험치|On:활성화 Off:비활성화(기본)
+|openID|要请的OpenID||
+|callback|时间|
+|token_rc|男1,女2||
+|ai_type|JSON数据的identify||
+|health|推荐/非推荐的健康食品名称|没有返回的数据时显示为 “ ”|
+|cosmetic|推荐/非推荐的化妆品名称|没有返回的数据时显示为 “ ”|
+|fashion|推荐/非推荐的时尚杂货名称|没有返回的数据时显示为 “ ”|
+|babykid|推荐/非推荐的儿童用品名称|没有返回的数据时显示为 “ ”|
+|food|推荐/非推荐的食品名称|没有返回的数据时显示为 “ ”|
+|home|推荐/非推荐的家庭用品名称|没有返回的数据时显示为 “ ”|
 
 ---
 ## Category Flag
