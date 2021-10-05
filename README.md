@@ -9,8 +9,8 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 |--|--|--|--|
 |token❗️|是||tk101inteligenceaiiirom@endpoint64bit
 |openid|是|微信OpenID|odsabK4hNsnWSSFDV7WTksAleo6c89
-|gender|是|男1,女2|一或二
-|age|是|年龄|公司名称inteligenceaiiirom@endpoint64bit
+|gender|是|男1,女2|1 或 2
+|age|是|年龄|20 到 90
 |price_range|是|商品价格范围| 1：0~175元 ，2：175~290元 ， 3:290~583元 ，4:583~1167元，5:1167元以上
 |visit|是|访问次数|
 |favor|否|暂不使用的参数|
