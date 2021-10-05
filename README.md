@@ -5,17 +5,17 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 
 ## 参数
 ---
-|**parameter**|**definition**|**example**|
-|--|--|--|
-|token❗️||tk101inteligenceaiiirom@endpoint64bit
-|openid|微信OpenID|odsabK4hNsnWSSFDV7WTksAleo6c89
-|gender|男1,女2|一或二
-|age|年龄|公司名称inteligenceaiiirom@endpoint64bit
-|price_range|商品价格范围| 1：0~175元 ，2：175~290元 ， 3:290~583元 ，4:583~1167元，5:1167元以上
-|visit|访问次数|
-|favor|暂不使用的参数|
-|sensitivity❗️|推荐敏感度|low: 低, medium: 默认 high: 高
-|deep_experience❗️|经验值|On:活性 Off: 非活性(默认)
+|**parameter**|**必填**|**definition**|**example**|
+|--|--|--|--|
+|token❗️|是||tk101inteligenceaiiirom@endpoint64bit
+|openid|是|微信OpenID|odsabK4hNsnWSSFDV7WTksAleo6c89
+|gender|是|男1,女2|一或二
+|age|是|年龄|公司名称inteligenceaiiirom@endpoint64bit
+|price_range|是|商品价格范围| 1：0~175元 ，2：175~290元 ， 3:290~583元 ，4:583~1167元，5:1167元以上
+|visit|是|访问次数|
+|favor|否|暂不使用的参数|
+|sensitivity❗️|否|推荐敏感度|low: 低, medium: 默认 high: 高
+|deep_experience❗️|否|经验值|On:活性 Off: 非活性(默认)
 
 ---
 ## 返回的 JSON 数据 
