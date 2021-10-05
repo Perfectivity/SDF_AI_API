@@ -157,7 +157,6 @@ Artificial intelligence API used in duty-free shop product recommendation functi
 AUC的 计算方式如下
 
 ![image](https://user-images.githubusercontent.com/78646027/135964126-944919f1-25b9-48f7-89db-7575293ad548.png)
-![image](https://user-images.githubusercontent.com/78646027/135964173-135f666c-37d6-4ae4-966a-56a88f8f2738.png)
 
  1) TP  表示推荐产品（来源于小程序）和 推荐产品（正确答案）中相匹配的商品号码的个数。
  2) TN 表示非推荐产品（来源于小程序）和 非推荐产品（正确答案）中相匹配的商品号码的个数。
@@ -287,7 +286,7 @@ AUC= 4 + 3 / 4 + 2 + 3 + 1 = **0.7**
 
 100人的AUC0.6以上的话才算合格。
 
-
+![image](https://user-images.githubusercontent.com/78646027/135964173-135f666c-37d6-4ae4-966a-56a88f8f2738.png)
 
 
 
